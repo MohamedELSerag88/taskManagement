@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "463587b8-f1ab-440b-b7aa-71d2d928ea46",
+		"_postman_id": "ff05d83d-922d-40be-a56b-010008d158d5",
 		"name": "Task Mangement",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "35144604",
-		"_collection_link": "https://developers-6650.postman.co/workspace/Mina-Backend-API~7005a88e-d040-455b-b944-06c8ff005e6e/collection/35144604-463587b8-f1ab-440b-b7aa-71d2d928ea46?action=share&source=collection_link&creator=35144604"
+		"_collection_link": "https://developers-6650.postman.co/workspace/Mina-Backend-API~7005a88e-d040-455b-b944-06c8ff005e6e/collection/35144604-ff05d83d-922d-40be-a56b-010008d158d5?action=share&source=collection_link&creator=35144604"
 	},
 	"item": [
 		{
@@ -42,7 +42,7 @@
 			},
 			"response": [
 				{
-					"name": "Tasks",
+					"name": "Tasks List",
 					"originalRequest": {
 						"method": "GET",
 						"header": [
@@ -96,7 +96,7 @@
 						},
 						{
 							"key": "Date",
-							"value": "Sun, 05 Jan 2025 20:50:23 GMT"
+							"value": "Sun, 05 Jan 2025 22:11:44 GMT"
 						},
 						{
 							"key": "Content-Type",
@@ -108,7 +108,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Textile Machine Operator\",\n        \"description\": \"Minima qui nemo explicabo voluptas. Quod debitis accusamus optio qui. Animi est dolor quis nobis est rem.\",\n        \"status\": false\n    },\n    {\n        \"id\": 2,\n        \"title\": \"Biologist\",\n        \"description\": \"Ea voluptate quae exercitationem ut nesciunt. Id iure et pariatur. Quis molestiae aut provident eum iusto. Pariatur temporibus in vel omnis dolorem corporis perspiciatis ipsa.\",\n        \"status\": false\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Brattice Builder\",\n        \"description\": \"Rerum animi illum maxime sequi ut suscipit omnis. Veniam odit libero doloremque libero cum laborum eum. Et iste non ut debitis maxime ut in.\",\n        \"status\": true\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Materials Inspector\",\n        \"description\": \"Est ut molestiae et illo dicta. Odit officiis dolore ipsam molestiae. Quia quisquam minus tempora et.\",\n        \"status\": true\n    },\n    {\n        \"id\": 5,\n        \"title\": \"Interviewer\",\n        \"description\": \"Animi ut ut nam qui doloribus iure. Inventore est molestiae dicta aut. Commodi magnam voluptatem veniam. Illo voluptas id omnis sit. Nesciunt voluptatem ullam quo aperiam voluptate.\",\n        \"status\": true\n    },\n    {\n        \"id\": 6,\n        \"title\": \"Streetcar Operator\",\n        \"description\": \"Voluptatem et nam iusto magni. Quis voluptas voluptas eveniet omnis. Odio quas dolore ea ipsum exercitationem. Incidunt animi rerum deserunt quia vel dolores.\",\n        \"status\": true\n    },\n    {\n        \"id\": 7,\n        \"title\": \"Hoist and Winch Operator\",\n        \"description\": \"Facere facere sit dolorem laboriosam asperiores voluptatum itaque. Et nobis quo omnis dolores inventore et. Repellat asperiores aliquid saepe iusto ipsa aut odit.\",\n        \"status\": false\n    },\n    {\n        \"id\": 8,\n        \"title\": \"Appliance Repairer\",\n        \"description\": \"Aut quo sint nostrum odio. Explicabo id sint ab.\",\n        \"status\": true\n    },\n    {\n        \"id\": 9,\n        \"title\": \"Data Processing Equipment Repairer\",\n        \"description\": \"Tenetur consequatur et qui accusamus rerum. Molestiae nobis sed ut id. Reprehenderit inventore et quasi error. Voluptas dolores non unde expedita consequatur necessitatibus ut.\",\n        \"status\": true\n    },\n    {\n        \"id\": 10,\n        \"title\": \"Chemist\",\n        \"description\": \"Enim veritatis blanditiis qui iusto suscipit aut. Accusantium optio error totam tenetur sed quis tempora et. Et et molestiae explicabo. Velit soluta alias alias.\",\n        \"status\": false\n    }\n]"
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Advertising Manager OR Promotions Manager\",\n        \"description\": \"Quia aut placeat recusandae delectus ipsam dolor. Quia in non sed voluptatum nostrum impedit illum. Eius beatae aut autem et illo et. Modi non ratione voluptatum error rerum reprehenderit.\",\n        \"status\": \"cancelled\"\n    },\n    {\n        \"id\": 2,\n        \"title\": \"Human Resource Manager\",\n        \"description\": \"Possimus ratione magni illum sed natus ut autem iusto. Repellat sit voluptates aut nulla eum non voluptatibus in.\",\n        \"status\": \"in-progress\"\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Aircraft Mechanics OR Aircraft Service Technician\",\n        \"description\": \"Magni in sint perferendis quia est. Eum error magnam quis cupiditate iste dolorem sit. Et temporibus reiciendis omnis quod eos.\",\n        \"status\": \"completed\"\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Anthropology Teacher\",\n        \"description\": \"Dolor provident omnis at aperiam atque. Qui et ea corporis veniam quia molestiae odio. Praesentium inventore rem et aspernatur optio laudantium voluptatum repellendus. Deserunt perspiciatis quia at.\",\n        \"status\": \"completed\"\n    },\n    {\n        \"id\": 5,\n        \"title\": \"Manager Tactical Operations\",\n        \"description\": \"Pariatur qui quis qui eaque odit saepe. Ea qui qui eveniet blanditiis aliquid unde ad. Ut id distinctio eos eligendi nemo consequuntur adipisci laboriosam. Eum sit dolore aut ut omnis officia.\",\n        \"status\": \"cancelled\"\n    },\n    {\n        \"id\": 6,\n        \"title\": \"Chemical Plant Operator\",\n        \"description\": \"Molestiae libero sunt incidunt alias dolorem. Explicabo dignissimos sed voluptatibus voluptates. Voluptatibus id quae numquam vel qui. Totam sed odio perferendis.\",\n        \"status\": \"in-progress\"\n    },\n    {\n        \"id\": 7,\n        \"title\": \"Cleaners of Vehicles\",\n        \"description\": \"Sint est aut qui ut. Ut odit libero tempore odio ea sunt sunt veniam. Harum sit ut aut error.\",\n        \"status\": \"cancelled\"\n    },\n    {\n        \"id\": 8,\n        \"title\": \"Hairdresser OR Cosmetologist\",\n        \"description\": \"Ea quibusdam at consectetur sit quasi architecto. Sed tenetur vero ut nulla laborum reprehenderit. Aliquid enim voluptatem necessitatibus.\",\n        \"status\": \"in-progress\"\n    },\n    {\n        \"id\": 9,\n        \"title\": \"Medical Appliance Technician\",\n        \"description\": \"Eligendi eos impedit facere sunt. Sint consequatur quia quaerat nulla sit tempore. Delectus sunt voluptas maxime voluptatem molestiae. Accusamus ut et odio quasi nihil voluptatum.\",\n        \"status\": \"in-progress\"\n    },\n    {\n        \"id\": 10,\n        \"title\": \"Library Technician\",\n        \"description\": \"Nesciunt et enim et corrupti dolore sed dolorem. Sint minima laudantium ut fuga qui. Eius nulla est sed est sed qui qui alias. Ut veritatis quaerat ullam quis sapiente non repellat ratione.\",\n        \"status\": \"cancelled\"\n    }\n]"
 				}
 			]
 		}

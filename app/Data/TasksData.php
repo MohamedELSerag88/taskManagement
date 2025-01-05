@@ -10,7 +10,7 @@ class TasksData extends Data
         public int $id,
         public string $title,
         public string $description,
-        public bool $status
+        public string $status
     ) {
     }
 
