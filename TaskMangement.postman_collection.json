@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "463587b8-f1ab-440b-b7aa-71d2d928ea46",
+		"name": "Task Mangement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35144604",
+		"_collection_link": "https://developers-6650.postman.co/workspace/Mina-Backend-API~7005a88e-d040-455b-b944-06c8ff005e6e/collection/35144604-463587b8-f1ab-440b-b7aa-71d2d928ea46?action=share&source=collection_link&creator=35144604"
+	},
+	"item": [
+		{
+			"name": "Tasks List",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/tasks",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"tasks"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tasks",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/v1/tasks",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"tasks"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.12"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 05 Jan 2025 20:50:23 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Textile Machine Operator\",\n        \"description\": \"Minima qui nemo explicabo voluptas. Quod debitis accusamus optio qui. Animi est dolor quis nobis est rem.\",\n        \"status\": false\n    },\n    {\n        \"id\": 2,\n        \"title\": \"Biologist\",\n        \"description\": \"Ea voluptate quae exercitationem ut nesciunt. Id iure et pariatur. Quis molestiae aut provident eum iusto. Pariatur temporibus in vel omnis dolorem corporis perspiciatis ipsa.\",\n        \"status\": false\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Brattice Builder\",\n        \"description\": \"Rerum animi illum maxime sequi ut suscipit omnis. Veniam odit libero doloremque libero cum laborum eum. Et iste non ut debitis maxime ut in.\",\n        \"status\": true\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Materials Inspector\",\n        \"description\": \"Est ut molestiae et illo dicta. Odit officiis dolore ipsam molestiae. Quia quisquam minus tempora et.\",\n        \"status\": true\n    },\n    {\n        \"id\": 5,\n        \"title\": \"Interviewer\",\n        \"description\": \"Animi ut ut nam qui doloribus iure. Inventore est molestiae dicta aut. Commodi magnam voluptatem veniam. Illo voluptas id omnis sit. Nesciunt voluptatem ullam quo aperiam voluptate.\",\n        \"status\": true\n    },\n    {\n        \"id\": 6,\n        \"title\": \"Streetcar Operator\",\n        \"description\": \"Voluptatem et nam iusto magni. Quis voluptas voluptas eveniet omnis. Odio quas dolore ea ipsum exercitationem. Incidunt animi rerum deserunt quia vel dolores.\",\n        \"status\": true\n    },\n    {\n        \"id\": 7,\n        \"title\": \"Hoist and Winch Operator\",\n        \"description\": \"Facere facere sit dolorem laboriosam asperiores voluptatum itaque. Et nobis quo omnis dolores inventore et. Repellat asperiores aliquid saepe iusto ipsa aut odit.\",\n        \"status\": false\n    },\n    {\n        \"id\": 8,\n        \"title\": \"Appliance Repairer\",\n        \"description\": \"Aut quo sint nostrum odio. Explicabo id sint ab.\",\n        \"status\": true\n    },\n    {\n        \"id\": 9,\n        \"title\": \"Data Processing Equipment Repairer\",\n        \"description\": \"Tenetur consequatur et qui accusamus rerum. Molestiae nobis sed ut id. Reprehenderit inventore et quasi error. Voluptas dolores non unde expedita consequatur necessitatibus ut.\",\n        \"status\": true\n    },\n    {\n        \"id\": 10,\n        \"title\": \"Chemist\",\n        \"description\": \"Enim veritatis blanditiis qui iusto suscipit aut. Accusantium optio error totam tenetur sed quis tempora et. Et et molestiae explicabo. Velit soluta alias alias.\",\n        \"status\": false\n    }\n]"
+				}
+			]
+		}
+	]
+}
