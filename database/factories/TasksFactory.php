@@ -21,7 +21,7 @@ class TasksFactory extends Factory
     protected $model = TaskManagement::class;
     public function definition(): array
     {
-        $status = ['in-progress', 'completed', 'cancelled'];
+        $status = ['in-progress', 'completed', 'cancelled','pending'];
         return [
             "title" => fake()->jobTitle(),
             "description" => fake()->text,
