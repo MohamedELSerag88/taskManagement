@@ -14,7 +14,7 @@ This project is a Laravel-based RESTful API designed to manage order system , pa
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/MohamedELSerag88/order-products.git
+    git clone https://github.com/MohamedELSerag88/taskManagement.git
     cd order-products
     ```
 
@@ -83,7 +83,6 @@ This project is a Laravel-based RESTful API designed to manage order system , pa
     ```
    can find postman collection file inside base directroy of the project 
    file name : Order TaskMangement.postman_collection.json
-   env file: Order System.postman_environment.json
 
     ```
 
